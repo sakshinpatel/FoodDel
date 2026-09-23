@@ -1,7 +1,9 @@
 {
-  "name": "frontend",
+  "name": "cravekart-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Customer web application for CraveKart food delivery platform",
+  "author": "Sakshi Patel",
   "type": "module",
   "scripts": {
     "dev": "vite",

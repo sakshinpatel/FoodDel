@@ -38,17 +38,29 @@
 .login-popup-inputs input{
     outline: none;
     border: 1px solid #c9c9c9;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.login-popup-inputs input:focus{
+    border-color: var(--primary, #FF5A36);
+    box-shadow: 0 0 0 3px rgba(255, 90, 54, 0.15);
 }
 .login-popup-container button{
     border: none;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 12px;
+    border-radius: 8px;
     color: white;
-    background-color: tomato;
+    background-color: var(--primary, #FF5A36);
     font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+.login-popup-container button:hover{
+    background-color: var(--primary-dark, #D93D20);
+    box-shadow: 0 4px 12px rgba(255, 90, 54, 0.3);
 }
 .login-popup-condition{
     display: flex;
@@ -58,9 +70,10 @@
 }
 .login-popup-condition input{
     margin-top: 5px;
+    accent-color: var(--primary, #FF5A36);
 }
 .login-popup p span{
-    color: tomato;
-    font-weight: 500;
+    color: var(--primary, #FF5A36);
+    font-weight: 600;
     cursor: pointer;
 }

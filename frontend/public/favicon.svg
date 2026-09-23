@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cravekartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B4A"/>
+      <stop offset="100%" stop-color="#D93D20"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#cravekartGrad)"/>
+  <!-- Food Cloche & Cart Icon -->
+  <!-- Cloche Dome -->
+  <path d="M18 36 C18 25, 46 25, 46 36 Z" fill="#FFFFFF"/>
+  <!-- Cloche Handle -->
+  <circle cx="32" cy="22" r="3" fill="#FFFFFF"/>
+  <rect x="30.5" y="24" width="3" height="3" fill="#FFFFFF"/>
+  <!-- Cloche Platter Base -->
+  <rect x="15" y="38" width="34" height="4" rx="2" fill="#FFFFFF"/>
+  <!-- Cart Wheels (Speed elements) -->
+  <circle cx="23" cy="46" r="3" fill="#FFFFFF"/>
+  <circle cx="41" cy="46" r="3" fill="#FFFFFF"/>
+  <!-- Speed lines -->
+  <line x1="12" y1="46" x2="17" y2="46" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+</svg>

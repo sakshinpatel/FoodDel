@@ -1,14 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+:root {
+  --primary: #FF5A36;
+  --primary-dark: #D93D20;
+  --primary-light: #FFF0EB;
+  --secondary: #111827;
+  --bg-color: #F9FAFB;
+  --surface: #FFFFFF;
+  --text-main: #1F2937;
+  --text-muted: #6B7280;
+  --border-color: #E5E7EB;
+  --success: #16A34A;
+  --error: #DC2626;
+  --warning: #F59E0B;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;
 }
 body{
     min-height: 100vh;
-    background-color: #fcfcfc;
+    background-color: var(--bg-color, #F9FAFB);
+    color: var(--text-main, #1F2937);
+    -webkit-font-smoothing: antialiased;
 }
 a{
     text-decoration: none;

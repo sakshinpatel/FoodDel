@@ -46,11 +46,17 @@
 .cart-total button{
     border: none;
     color: white;
-    background-color: tomato;
+    background-color: var(--primary, #FF5A36);
     width: max(15vw,200px);
-    padding: 12px 0px;
-    border-radius: 4px;
+    padding: 13px 0px;
+    border-radius: 8px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+.cart-total button:hover{
+    background-color: var(--primary-dark, #D93D20);
+    box-shadow: 0 4px 14px rgba(255, 90, 54, 0.35);
 }
 .cart-promocode{
     flex: 1;

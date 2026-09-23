@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="adminGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B4A"/>
+      <stop offset="100%" stop-color="#D93D20"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#adminGrad)"/>
+  <!-- Accent Badge Ring -->
+  <rect x="3.5" y="3.5" width="57" height="57" rx="14.5" fill="none" stroke="#FF5A36" stroke-width="2" opacity="0.6"/>
+  <!-- Cloche Dome in Accent -->
+  <path d="M18 36 C18 25, 46 25, 46 36 Z" fill="url(#accentGrad)"/>
+  <!-- Cloche Handle -->
+  <circle cx="32" cy="22" r="3" fill="#FF5A36"/>
+  <!-- Platter Base -->
+  <rect x="15" y="38" width="34" height="4" rx="2" fill="#FFFFFF"/>
+  <!-- Wheels -->
+  <circle cx="23" cy="46" r="3" fill="#FFFFFF"/>
+  <circle cx="41" cy="46" r="3" fill="#FFFFFF"/>
+</svg>

@@ -16,6 +16,14 @@
 }
 .add-product-name input, .add-product-description textarea{
     padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.add-product-name input:focus, .add-product-description textarea:focus{
+    outline: none;
+    border-color: var(--primary, #FF5A36);
+    box-shadow: 0 0 0 3px rgba(255, 90, 54, 0.15);
 }
 .add-category-price{
     display: flex;
@@ -24,14 +32,23 @@
 .add-category-price select, .add-category-price input{
     max-width: 120px;
     padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
 }
 .add-btn{
     max-width: 120px;
     border: none;
-    padding: 10px;
-    background-color: black;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: var(--secondary, #111827);
     color: white;
+    font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.add-btn:hover{
+    background-color: var(--primary, #FF5A36);
 }
 @media (max-width:400px) {
     .add{

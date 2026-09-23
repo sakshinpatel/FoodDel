@@ -6,10 +6,10 @@
     width: 100px;
     height: 100px;
     place-self: center;
-    border: 5px solid #bdbdbd;
-    border-top-color: tomato;
+    border: 5px solid #e5e7eb;
+    border-top-color: var(--primary, #FF5A36);
     border-radius: 50%;
-    animation: rotate 1s infinite;
+    animation: rotate 0.8s linear infinite;
 }
 @keyframes rotate {
     100%{

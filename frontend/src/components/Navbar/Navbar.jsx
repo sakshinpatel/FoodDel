@@ -18,8 +18,8 @@ const Navbar = ({ setShowLogin }) => {
   }
   return (
     <div className="navbar">
-      <Link to="/">
-        <img src={assets.logo} alt="" className="logo" />
+      <Link to="/" aria-label="CraveKart Home">
+        <img src={assets.logo} alt="CraveKart Logo" className="logo" />
       </Link>
       <ul className="navbar-menu">
         <Link

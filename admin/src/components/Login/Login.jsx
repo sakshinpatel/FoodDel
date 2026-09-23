@@ -45,7 +45,7 @@ const Login = ({ url }) => {
     <div className="login-popup">
       <form onSubmit={onLogin} className="login-popup-container">
         <div className="login-popup-title">
-          <h2>Login</h2>
+          <h2>CraveKart Admin Login</h2>
         </div>
         <div className="login-popup-inputs">
           <input

@@ -1,7 +1,9 @@
 {
-  "name": "admin",
+  "name": "cravekart-admin",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Admin dashboard application for CraveKart food delivery platform",
+  "author": "Sakshi Patel",
   "type": "module",
   "scripts": {
     "dev": "vite",

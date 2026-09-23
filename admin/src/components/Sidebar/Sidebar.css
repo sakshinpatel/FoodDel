@@ -23,8 +23,10 @@
     cursor: pointer;
 }
 .sidebar-option.active{
-    background-color: #fff0ed;
-    border-color: tomato;
+    background-color: var(--primary-light, #FFF0EB);
+    border-color: var(--primary, #FF5A36);
+    font-weight: 600;
+    color: var(--primary-dark, #D93D20);
 }
 
 @media (max-width:900px) {
